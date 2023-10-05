@@ -27,3 +27,7 @@ spring:
     protocol: smtp
     debug: true
     test-connection: false  
+app:
+  jwt:
+    secret: idenmatic
+    expireMs: 3600000
