@@ -20,11 +20,10 @@ spring:
     username: web-support@acme-inter.com
     password: ncqwidokjouqvxgx
     port: 587
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
+    smtp:
+      auth: true
+      starttls:
+        enable: true
     protocol: smtp
+    debug: true
     test-connection: false  
