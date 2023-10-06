@@ -29,5 +29,5 @@ spring:
     test-connection: false  
 app:
   jwt:
-    secret: idenmatic
+    secret: AGEAYwBtAGUAfgBpAG4AdABlAHIAQABpAGQAZQBuAG0AYQB0AGkAYw==
     expireMs: 3600000
