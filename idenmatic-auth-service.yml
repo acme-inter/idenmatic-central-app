@@ -31,3 +31,4 @@ app:
   jwt:
     secret: AGEAYwBtAGUAfgBpAG4AdABlAHIAQABpAGQAZQBuAG0AYQB0AGkAYw==
     expireMs: 3600000
+    refreshExpirationMs: 36000
