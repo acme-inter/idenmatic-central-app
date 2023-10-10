@@ -40,7 +40,7 @@ app:
     refreshExpirationMs: 3600000
   token:
     web:
-      regsuccessPage: http://localhost:4200/authentication/cofirm
+      regSuccessPage: http://localhost:4200/authentication/cofirm
       reErrorPage: http://localhost:4200/authentication/cofirm-error
       defaultPage: http://localhost:4200/authentication/cofirm
     email:
