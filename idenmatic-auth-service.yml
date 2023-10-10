@@ -28,6 +28,8 @@ spring:
     debug: false
     test-connection: false  
 app:
+  web:
+    site: http://localhost:4200/
   mail:
     sender: IDENMATIC
     support:
