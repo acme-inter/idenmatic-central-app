@@ -30,6 +30,8 @@ spring:
 app:
   mail:
     sender: IDENMATIC
+    support:
+      email: web-support@acme-inter.com
     templates:
       location: /templates/
   jwt:
