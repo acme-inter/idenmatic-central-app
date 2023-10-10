@@ -42,9 +42,9 @@ app:
     refreshExpirationMs: 3600000
   token:
     web:
-      regSuccessPage: http://localhost:4200/authentication/cofirm
-      reErrorPage: http://localhost:4200/authentication/cofirm-error
-      alreadyConfirmPage: http://localhost:4200/authentication/already
+      emailVerifySuccessPage: http://localhost:4200/authentication/cofirm
+      emailVerifyErrorPage: http://localhost:4200/authentication/cofirm-error
+      alreadyVerifyPage: http://localhost:4200/authentication/already
     email:
       verification:
         duration: 3600000
