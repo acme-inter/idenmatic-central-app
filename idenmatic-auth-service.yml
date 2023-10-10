@@ -42,7 +42,7 @@ app:
     web:
       regSuccessPage: http://localhost:4200/authentication/cofirm
       reErrorPage: http://localhost:4200/authentication/cofirm-error
-      regAlreadyPage: http://localhost:4200/authentication/already
+      alreadyConfirmPage: http://localhost:4200/authentication/already
     email:
       verification:
         duration: 3600000
