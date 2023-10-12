@@ -31,7 +31,8 @@ app:
   web:
     site: http://localhost:4200/
   otp:
-    name: Idenmatic
+    issuer: Idenmatic
+    period: 15
   mail:
     sender: IDENMATIC
     support:
