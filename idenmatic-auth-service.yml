@@ -30,6 +30,8 @@ spring:
 app:
   web:
     site: http://localhost:4200/
+  otp:
+    name: Idenmatic
   mail:
     sender: IDENMATIC
     support:
