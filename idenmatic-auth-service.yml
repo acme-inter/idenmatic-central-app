@@ -33,6 +33,8 @@ app:
   otp:
     issuer: Idenmatic
     period: 15
+    qr:
+      expire: 60000
   mail:
     sender: IDENMATIC
     support:
@@ -56,3 +58,5 @@ app:
         duration: 3600000
     refresh:
       duration: 3600000
+  register:
+    confirm: /api/auth/registrationConfirmation
