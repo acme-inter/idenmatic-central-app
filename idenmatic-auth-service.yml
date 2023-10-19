@@ -60,3 +60,12 @@ app:
       duration: 3600000
   register:
     confirm: /api/auth/registrationConfirmation
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2000KB
+      max-file-size: 10MB
+      max-request-size: 10MB
+      location: ./uploads  
+file:
+  upload-dir: ./uploads
