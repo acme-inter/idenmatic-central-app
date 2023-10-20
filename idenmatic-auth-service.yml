@@ -69,3 +69,5 @@ app:
       location: ./uploads  
 file:
   upload-dir: ./uploads
+aes:
+  secreteKey: kkL1GLd8NFajZtdeLh87DvA7SAXXvtLb
