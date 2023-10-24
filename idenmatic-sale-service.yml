@@ -3,6 +3,8 @@ server:
 erp:
   ip: 54.254.54.116
   port: 8001
+  username: APIUSER
+  password: acmeinter123
   authUrl: https://${erp.ip}:${erp.port}/EN/001.1/login
   addressUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/DeliveryAddresses
   customerOrderUrl: https://${erp.ip}:${erp.port}/EN/001.1/api/v1/Sales/CustomerOrders
