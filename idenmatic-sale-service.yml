@@ -1,5 +1,17 @@
 server:
   port: 18060
+erp:
+  ip: 54.254.54.116
+  port: 8001
+  authUrl: https://${erp.ip}:${erp.port}/EN/001.1/login
+  addressUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/DeliveryAddresses
+  customerOrderUrl: https://${erp.ip}:${erp.port}/EN/001.1/api/v1/Sales/CustomerOrders
+  customerUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Sales/Customers
+  departmentUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/Departments
+  invoiceLogUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Sales/InvoiceLogs
+  partUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Inventory/Parts
+  personUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/Persons
+  vatUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/VatGroups
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
