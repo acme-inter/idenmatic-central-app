@@ -1,5 +1,6 @@
 server:
   port: 18060
+  host: localhost
 erp:
   ip: 54.254.54.116
   port: 8001
@@ -17,7 +18,7 @@ erp:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/sales
+    url: jdbc:postgresql://${server.host}:5432/sales
     username: postgres
     password: 12345678
   jpa:
@@ -28,6 +29,10 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     open-in-view: false
     generate-ddl: true
+  data:
+    elasticsearch:
+      cluster-name: saleService
+      cluster-nodes: ${server.host}:9200
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
