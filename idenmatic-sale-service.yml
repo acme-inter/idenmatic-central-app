@@ -16,6 +16,7 @@ erp:
   personUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/Persons
   vatRateUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/VatRates
   vatGroupUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Common/VatGroups
+  supplierUrl: https://${erp.ip}:${erp.port}/sv/001.1/api/v1/Purchase/Suppliers
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
