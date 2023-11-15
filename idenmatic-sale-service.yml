@@ -21,7 +21,7 @@ erp:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://${server.host}:5432/sales
+    url: jdbc:postgresql://${server.host}:5432/sales-test
     username: postgres
     password: 12345678
   jpa:
