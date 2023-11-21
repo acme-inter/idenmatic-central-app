@@ -58,8 +58,11 @@ app:
         duration: 3600000
     refresh:
       duration: 3600000
+  gateway:
+    host: 192.168.2.150
+    port: 18800
   register:
-    confirm: http://192.168.2.150:18800/api/auth/registrationConfirmation
+    confirm: /api/auth/registrationConfirmation
   servlet:
     multipart:
       enabled: true
