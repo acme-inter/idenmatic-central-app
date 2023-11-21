@@ -58,9 +58,9 @@ app:
         duration: 3600000
     refresh:
       duration: 3600000
-  gateway:
-    host: 192.168.2.150
-    port: 18800
+  apiGateway:
+    serverIp: 192.168.2.150
+    serverPort: 18800
   register:
     confirm: /api/auth/registrationConfirmation
   servlet:
