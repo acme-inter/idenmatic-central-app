@@ -26,13 +26,13 @@ spring:
         enable: true
     protocol: smtp
     debug: false
-    test-connection: false  
+    test-connection: false
+apiGateway:
+    serverIp: 192.168.2.150
+    serverPort: 18800    
 app:
   web:
     site: http://localhost:4200/
-  apiGateway:
-    serverIp: 192.168.2.150
-    serverPort: 18800
   otp:
     issuer: Idenmatic
     period: 15
