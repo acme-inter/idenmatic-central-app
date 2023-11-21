@@ -30,6 +30,9 @@ spring:
 app:
   web:
     site: http://localhost:4200/
+  apiGateway:
+    serverIp: 192.168.2.150
+    serverPort: 18800
   otp:
     issuer: Idenmatic
     period: 15
@@ -58,9 +61,6 @@ app:
         duration: 3600000
     refresh:
       duration: 3600000
-  apiGateway:
-    serverIp: 192.168.2.150
-    serverPort: 18800
   register:
     confirm: /api/auth/registrationConfirmation
   servlet:
