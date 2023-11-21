@@ -59,7 +59,7 @@ app:
     refresh:
       duration: 3600000
   register:
-    confirm: /api/auth/registrationConfirmation
+    confirm: http://192.168.2.150:18800/api/auth/registrationConfirmation
   servlet:
     multipart:
       enabled: true
